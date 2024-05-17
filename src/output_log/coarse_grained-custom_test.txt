@@ -1,0 +1,3497 @@
+//10 threads, 20 operations per thread
+
+=== multiset initialised ===
+head element: 0
+head count: 0
+head next pointer: (nil)
+(thread 0) adding element: 19
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 1) adding element: 19
+(thread 2) adding element: 19
+(thread 2) waiting to acquire lock
+(thread 1) waiting to acquire lock
+(thread 0) curr node: (nil)
+(thread 0) element not found: 0x13
+(thread 6) searching for element 0
+(thread 6) waiting to acquire lock
+(thread 3) adding element: 19
+(thread 3) waiting to acquire lock
+(thread 5) adding element: 19
+(thread 5) waiting to acquire lock
+(thread 7) adding element: 19
+(thread 7) waiting to acquire lock
+(thread 8) adding element: 19
+(thread 8) waiting to acquire lock
+(thread 4) searching for element 19
+(thread 4) waiting to acquire lock
+(thread 9) adding element: 19
+(thread 9) waiting to acquire lock
+(thread 0) new node created: 0x7f7618000b60
+(thread 0) new node added: 0x7f7618000b60
+(thread 0) lock released
+(thread 0) searching for element 6
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node (nil)
+(thread 0) element not found: 6
+(thread 0) lock released
+(thread 0) adding element: 10
+(thread 0) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) element found: 19, counter being incremented
+(thread 2) lock released
+(thread 2) adding element: 12
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) element found: 19, counter being incremented
+(thread 2) waiting to acquire lock
+(thread 2) lock acquired
+(thread 1) lock released
+(thread 1) adding element: 18
+(thread 1) waiting to acquire lock
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: (nil)
+(thread 2) element not found: 0xc
+(thread 2) new node created: 0x7f7610000b60
+(thread 2) new node added: 0x7f7610000b60
+(thread 2) lock released
+(thread 2) searching for element 9
+(thread 2) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) element found: 19, counter being incremented
+(thread 3) lock released
+(thread 3) adding element: 6
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7610000b60
+(thread 3) next pred node: 0x7f7610000b60
+(thread 3) next curr node: (nil)
+(thread 3) element not found: 0x6
+(thread 3) new node created: 0x7f7608000b60
+(thread 3) new node added: 0x7f7608000b60
+(thread 3) lock released
+(thread 3) removing element: 2
+(thread 3) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) element found: 19, counter being incremented
+(thread 7) lock released
+(thread 7) counting for element: 12
+(thread 7) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) element found: 19, counter being incremented
+(thread 8) lock released
+(thread 8) searching for element 10
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) element found: 402656144
+(thread 4) lock released
+(thread 4) removing element: 4
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 8) waiting to acquire lock
+(thread 4) next curr node: 0x7f7610000b60
+(thread 4) next pred node: 0x7f7610000b60
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) next pred node: 0x7f7608000b60
+(thread 4) next curr node: (nil)
+(thread 4) element not found
+(thread 4) lock released
+(thread 4) searching for element 18
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node 0x7f7610000b60
+(thread 4) next curr node 0x7f7608000b60
+(thread 4) next curr node (nil)
+(thread 4) element not found: 18
+(thread 4) lock released
+(thread 4) removing element: 6
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7610000b60
+(thread 4) next pred node: 0x7f7610000b60
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) node found: 6, count being decremented
+(thread 4) count 0 for: 6, node being removed
+(thread 4) lock released
+(thread 4) searching for element 19
+(thread 4) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7610000b60
+(thread 1) next pred node: 0x7f7610000b60
+(thread 1) next curr node: (nil)
+(thread 1) element not found: 0x12
+(thread 1) new node created: 0x7f7600000b60
+(thread 1) new node added: 0x7f7600000b60
+(thread 1) lock released
+(thread 1) searching for element 7
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node 0x7f7610000b60
+(thread 1) next curr node 0x7f7600000b60
+(thread 1) next curr node (nil)
+(thread 1) element not found: 7
+(thread 1) lock released
+(thread 1) searching for element 2
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node 0x7f7610000b60
+(thread 1) next curr node 0x7f7600000b60
+(thread 1) next curr node (nil)
+(thread 1) element not found: 2
+(thread 1) lock released
+(thread 1) adding element: 18
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7610000b60
+(thread 1) next pred node: 0x7f7610000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) element found: 18, counter being incremented
+(thread 1) lock released
+(thread 1) removing element: 4
+(thread 1) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7610000b60
+(thread 7) element found: 12, count: 1
+(thread 7) lock released
+(thread 7) adding element: 0
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7610000b60
+(thread 7) next pred node: 0x7f7610000b60
+(thread 7) next curr node: 0x7f7600000b60
+(thread 7) next pred node: 0x7f7600000b60
+(thread 7) next curr node: (nil)
+(thread 7) element not found: (nil)
+(thread 7) new node created: 0x7f7604000b60
+(thread 7) new node added: 0x7f7604000b60
+(thread 7) lock released
+(thread 7) counting for element: 1
+(thread 7) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7610000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 8) next curr node 0x7f7604000b60
+(thread 8) next curr node (nil)
+(thread 8) element not found: 10
+(thread 8) lock released
+(thread 8) searching for element 12
+(thread 8) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 0xa
+(thread 0) new node created: 0x7f7618000bb0
+(thread 0) new node added: 0x7f7618000bb0
+(thread 0) lock released
+(thread 0) counting for element: 1
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 1
+(thread 0) lock released
+(thread 0) counting for element: 2
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) element found: 402656144
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 4) lock released
+(thread 4) searching for element 8
+(thread 4) waiting to acquire lock
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 2
+(thread 0) lock released
+(thread 0) counting for element: 10
+(thread 0) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) element found: 19, counter being incremented
+(thread 5) lock released
+(thread 5) counting for element: 17
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 17
+(thread 5) lock released
+(thread 5) counting for element: 16
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 16
+(thread 5) lock released
+(thread 5) counting for element: 13
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 13
+(thread 5) lock released
+(thread 5) adding element: 0
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) element found: 0, counter being incremented
+(thread 5) lock released
+(thread 5) adding element: 17
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next pred node: 0x7f7618000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 0x11
+(thread 5) new node created: 0x7f75f8000b60
+(thread 5) new node added: 0x7f75f8000b60
+(thread 5) lock released
+(thread 5) counting for element: 2
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 2
+(thread 5) lock released
+(thread 5) removing element: 6
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next pred node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: (nil)
+(thread 5) element not found
+(thread 5) lock released
+(thread 5) counting for element: 7
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 7
+(thread 5) lock released
+(thread 5) adding element: 14
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next pred node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 0xe
+(thread 5) new node created: 0x7f75f8000bb0
+(thread 5) new node added: 0x7f75f8000bb0
+(thread 5) lock released
+(thread 5) counting for element: 3
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 3
+(thread 5) lock released
+(thread 5) adding element: 11
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next pred node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next pred node: 0x7f75f8000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 0xb
+(thread 5) new node created: 0x7f75f8000c00
+(thread 5) new node added: 0x7f75f8000c00
+(thread 5) lock released
+(thread 5) adding element: 5
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next pred node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next pred node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next pred node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next pred node: 0x7f75f8000c00
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 0x5
+(thread 5) new node created: 0x7f75f8000c50
+(thread 5) new node added: 0x7f75f8000c50
+(thread 5) lock released
+(thread 5) counting for element: 15
+(thread 5) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next curr node: 0x7f75f8000c50
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 15
+(thread 5) lock released
+(thread 5) counting for element: 8
+(thread 5) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7610000b60
+(thread 8) element found: 268438416
+(thread 8) lock released
+(thread 8) searching for element 5
+(thread 8) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) element found: 67111824
+(thread 6) lock released
+(thread 6) searching for element 14
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) next curr node 0x7f7618000bb0
+(thread 6) next curr node 0x7f75f8000b60
+(thread 6) next curr node 0x7f75f8000bb0
+(thread 6) element found: -134214688
+(thread 6) lock released
+(thread 6) counting for element: 17
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f7618000bb0
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) element found: 17, count: 1
+(thread 6) lock released
+(thread 6) searching for element 9
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) next curr node 0x7f7618000bb0
+(thread 6) next curr node 0x7f75f8000b60
+(thread 6) next curr node 0x7f75f8000bb0
+(thread 6) next curr node 0x7f75f8000c00
+(thread 6) next curr node 0x7f75f8000c50
+(thread 6) next curr node (nil)
+(thread 6) element not found: 9
+(thread 6) lock released
+(thread 6) searching for element 10
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) next curr node 0x7f7618000bb0
+(thread 6) element found: 402656224
+(thread 6) lock released
+(thread 6) counting for element: 18
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) element found: 18, count: 2
+(thread 6) lock released
+(thread 6) removing element: 10
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f7618000bb0
+(thread 6) node found: 10, count being decremented
+(thread 6) count 0 for: 10, node being removed
+(thread 6) lock released
+(thread 6) adding element: 6
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: (nil)
+(thread 6) element not found: 0x6
+(thread 6) new node created: 0x7f7618000bb0
+(thread 6) new node added: 0x7f7618000bb0
+(thread 6) lock released
+(thread 6) removing element: 6
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: 0x7f7618000bb0
+(thread 6) node found: 6, count being decremented
+(thread 6) count 0 for: 6, node being removed
+(thread 6) lock released
+(thread 6) adding element: 3
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: (nil)
+(thread 6) element not found: 0x3
+(thread 6) new node created: 0x7f7618000bb0
+(thread 6) new node added: 0x7f7618000bb0
+(thread 6) lock released
+(thread 6) counting for element: 17
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) element found: 17, count: 1
+(thread 6) lock released
+(thread 6) adding element: 19
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) element found: 19, counter being incremented
+(thread 6) lock released
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node 0x7f7610000b60
+(thread 4) next curr node 0x7f7600000b60
+(thread 4) next curr node 0x7f7604000b60
+(thread 4) next curr node 0x7f75f8000b60
+(thread 6) adding element: 3
+(thread 6) waiting to acquire lock
+(thread 4) next curr node 0x7f75f8000bb0
+(thread 4) next curr node 0x7f75f8000c00
+(thread 4) next curr node 0x7f75f8000c50
+(thread 4) next curr node 0x7f7618000bb0
+(thread 4) next curr node (nil)
+(thread 4) element not found: 8
+(thread 4) lock released
+(thread 4) searching for element 5
+(thread 4) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 10
+(thread 0) lock released
+(thread 0) removing element: 3
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next pred node: 0x7f75f8000c50
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) node found: 3, count being decremented
+(thread 0) count 0 for: 3, node being removed
+(thread 0) lock released
+(thread 0) adding element: 17
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) element found: 17, counter being incremented
+(thread 0) lock released
+(thread 0) adding element: 15
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next pred node: 0x7f75f8000c50
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 0xf
+(thread 0) new node created: 0x7f7618000bb0
+(thread 0) new node added: 0x7f7618000bb0
+(thread 0) lock released
+(thread 0) removing element: 15
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next pred node: 0x7f75f8000c50
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) node found: 15, count being decremented
+(thread 0) count 0 for: 15, node being removed
+(thread 0) lock released
+(thread 0) adding element: 7
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 0) waiting to acquire lock
+(thread 5) next curr node: 0x7f7610000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next curr node: 0x7f75f8000c50
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 8
+(thread 5) lock released
+(thread 5) removing element: 19
+(thread 5) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7610000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 8) next curr node 0x7f7604000b60
+(thread 8) next curr node 0x7f75f8000b60
+(thread 8) next curr node 0x7f75f8000bb0
+(thread 8) next curr node 0x7f75f8000c00
+(thread 8) next curr node 0x7f75f8000c50
+(thread 8) element found: -134214528
+(thread 8) lock released
+(thread 8) searching for element 18
+(thread 8) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7610000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 8) element found: 2960
+(thread 8) lock released
+(thread 8) adding element: 16
+(thread 8) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7610000b60
+(thread 8) next pred node: 0x7f7610000b60
+(thread 8) next curr node: 0x7f7600000b60
+(thread 8) next pred node: 0x7f7600000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next pred node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f8000c50
+(thread 8) next pred node: 0x7f75f8000c50
+(thread 8) next curr node: (nil)
+(thread 8) element not found: 0x10
+(thread 8) new node created: 0x7f75f0000b60
+(thread 8) new node added: 0x7f75f0000b60
+(thread 8) lock released
+(thread 8) searching for element 11
+(thread 8) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: 0x7f75f0000b60
+(thread 6) next pred node: 0x7f75f0000b60
+(thread 6) next curr node: (nil)
+(thread 6) element not found: 0x3
+(thread 6) new node created: 0x7f75fc000ba0
+(thread 6) new node added: 0x7f75fc000ba0
+(thread 6) lock released
+(thread 6) removing element: 9
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: 0x7f75f0000b60
+(thread 6) next pred node: 0x7f75f0000b60
+(thread 6) next curr node: 0x7f75fc000ba0
+(thread 6) next pred node: 0x7f75fc000ba0
+(thread 6) next curr node: (nil)
+(thread 6) element not found
+(thread 6) lock released
+(thread 6) adding element: 19
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) element found: 19, counter being incremented
+(thread 6) lock released
+(thread 6) removing element: 13
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next pred node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next pred node: 0x7f75f8000c50
+(thread 6) next curr node: 0x7f75f0000b60
+(thread 6) next pred node: 0x7f75f0000b60
+(thread 6) next curr node: 0x7f75fc000ba0
+(thread 6) next pred node: 0x7f75fc000ba0
+(thread 6) next curr node: (nil)
+(thread 6) element not found
+(thread 6) lock released
+(thread 6) adding element: 11
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) pred node: 0xfa4ac0
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next pred node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7610000b60
+(thread 6) next pred node: 0x7f7610000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next pred node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next pred node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next pred node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next pred node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) element found: 11, counter being incremented
+(thread 6) lock released
+(thread 6) searching for element 9
+(thread 6) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) next curr node 0x7f75f8000b60
+(thread 6) next curr node 0x7f75f8000bb0
+(thread 6) next curr node 0x7f75f8000c00
+(thread 6) next curr node 0x7f75f8000c50
+(thread 6) next curr node 0x7f75f0000b60
+(thread 6) next curr node 0x7f75fc000ba0
+(thread 6) next curr node (nil)
+(thread 6) element not found: 9
+(thread 6) lock released
+(thread 6) searching for element 16
+(thread 6) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7610000b60
+(thread 7) next curr node: 0x7f7600000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f8000c50
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next curr node: (nil)
+(thread 7) element not found: 1
+(thread 7) lock released
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next pred node: 0x7f7610000b60
+(thread 7) counting for element: 8
+(thread 7) waiting to acquire lock
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next pred node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next pred node: 0x7f75f8000c50
+(thread 0) next curr node: 0x7f75f0000b60
+(thread 0) next pred node: 0x7f75f0000b60
+(thread 0) next curr node: 0x7f75fc000ba0
+(thread 0) next pred node: 0x7f75fc000ba0
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 0x7
+(thread 0) new node created: 0x7f7618000bb0
+(thread 0) new node added: 0x7f7618000bb0
+(thread 0) lock released
+(thread 0) searching for element 19
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) element found: 402656144
+(thread 0) lock released
+(thread 0) counting for element: 3
+(thread 0) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7610000b60
+(thread 0) next curr node: 0x7f7600000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f8000c50
+(thread 0) next curr node: 0x7f75f0000b60
+(thread 0) next curr node: 0x7f75fc000ba0
+(thread 0) element found: 3, count: 1
+(thread 0) lock released
+(thread 0) searching for element 10
+(thread 0) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node 0x7f7610000b60
+(thread 2) next curr node 0x7f7600000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) next curr node 0x7f75f8000c00
+(thread 2) next curr node 0x7f75f8000c50
+(thread 2) next curr node 0x7f75f0000b60
+(thread 2) next curr node 0x7f75fc000ba0
+(thread 2) next curr node 0x7f7618000bb0
+(thread 2) next curr node (nil)
+(thread 2) element not found: 9
+(thread 2) lock released
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7610000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 2) removing element: 12
+(thread 2) waiting to acquire lock
+(thread 8) next curr node 0x7f7604000b60
+(thread 8) next curr node 0x7f75f8000b60
+(thread 8) next curr node 0x7f75f8000bb0
+(thread 8) next curr node 0x7f75f8000c00
+(thread 8) element found: -134214608
+(thread 8) lock released
+(thread 8) counting for element: 15
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node 0x7f7610000b60
+(thread 4) next curr node 0x7f7600000b60
+(thread 8) waiting to acquire lock
+(thread 4) next curr node 0x7f7604000b60
+(thread 4) next curr node 0x7f75f8000b60
+(thread 4) next curr node 0x7f75f8000bb0
+(thread 4) next curr node 0x7f75f8000c00
+(thread 4) next curr node 0x7f75f8000c50
+(thread 4) element found: -134214528
+(thread 4) lock released
+(thread 4) removing element: 18
+(thread 4) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7610000b60
+(thread 3) next pred node: 0x7f7610000b60
+(thread 3) next curr node: 0x7f7600000b60
+(thread 3) next pred node: 0x7f7600000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f8000c50
+(thread 3) next pred node: 0x7f75f8000c50
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f7618000bb0
+(thread 3) next pred node: 0x7f7618000bb0
+(thread 3) next curr node: (nil)
+(thread 3) element not found
+(thread 3) lock released
+(thread 3) searching for element 1
+(thread 3) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7610000b60
+(thread 1) next pred node: 0x7f7610000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) next pred node: 0x7f7600000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next pred node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next pred node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f8000c50
+(thread 1) next pred node: 0x7f75f8000c50
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next pred node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next pred node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f7618000bb0
+(thread 1) next pred node: 0x7f7618000bb0
+(thread 1) next curr node: (nil)
+(thread 1) element not found
+(thread 1) lock released
+(thread 1) adding element: 14
+(thread 1) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) element found: 19, counter being incremented
+(thread 9) lock released
+(thread 9) counting for element: 8
+(thread 9) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node 0x7f7610000b60
+(thread 6) next curr node 0x7f7600000b60
+(thread 6) next curr node 0x7f7604000b60
+(thread 6) next curr node 0x7f75f8000b60
+(thread 6) next curr node 0x7f75f8000bb0
+(thread 6) next curr node 0x7f75f8000c00
+(thread 6) next curr node 0x7f75f8000c50
+(thread 6) next curr node 0x7f75f0000b60
+(thread 6) element found: -268432496
+(thread 6) lock released
+(thread 6) counting for element: 13
+(thread 6) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7610000b60
+(thread 7) next curr node: 0x7f7600000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f8000c50
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f7618000bb0
+(thread 7) next curr node: (nil)
+(thread 7) element not found: 8
+(thread 7) lock released
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 7) searching for element 19
+(thread 7) waiting to acquire lock
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) node found: 19, count being decremented
+(thread 5) lock released
+(thread 5) counting for element: 8
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node 0x7f7610000b60
+(thread 0) next curr node 0x7f7600000b60
+(thread 5) waiting to acquire lock
+(thread 0) next curr node 0x7f7604000b60
+(thread 0) next curr node 0x7f75f8000b60
+(thread 0) next curr node 0x7f75f8000bb0
+(thread 0) next curr node 0x7f75f8000c00
+(thread 0) next curr node 0x7f75f8000c50
+(thread 0) next curr node 0x7f75f0000b60
+(thread 0) next curr node 0x7f75fc000ba0
+(thread 0) next curr node 0x7f7618000bb0
+(thread 0) next curr node (nil)
+(thread 0) element not found: 10
+(thread 0) lock released
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 0) searching for element 10
+(thread 0) waiting to acquire lock
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7610000b60
+(thread 2) node found: 12, count being decremented
+(thread 2) count 0 for: 12, node being removed
+(thread 2) lock released
+(thread 2) searching for element 9
+(thread 2) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7600000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f8000c50
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f7618000bb0
+(thread 8) next curr node: (nil)
+(thread 8) element not found: 15
+(thread 8) lock released
+(thread 8) searching for element 4
+(thread 8) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7600000b60
+(thread 4) node found: 18, count being decremented
+(thread 4) lock released
+(thread 4) adding element: 1
+(thread 4) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next curr node 0x7f7600000b60
+(thread 3) next curr node 0x7f7604000b60
+(thread 3) next curr node 0x7f75f8000b60
+(thread 3) next curr node 0x7f75f8000bb0
+(thread 3) next curr node 0x7f75f8000c00
+(thread 3) next curr node 0x7f75f8000c50
+(thread 3) next curr node 0x7f75f0000b60
+(thread 3) next curr node 0x7f75fc000ba0
+(thread 3) next curr node 0x7f7618000bb0
+(thread 3) next curr node (nil)
+(thread 3) element not found: 1
+(thread 3) lock released
+(thread 3) removing element: 4
+(thread 3) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) next pred node: 0x7f7600000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) element found: 14, counter being incremented
+(thread 1) lock released
+(thread 1) searching for element 3
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node 0x7f7600000b60
+(thread 1) next curr node 0x7f7604000b60
+(thread 1) next curr node 0x7f75f8000b60
+(thread 1) next curr node 0x7f75f8000bb0
+(thread 1) next curr node 0x7f75f8000c00
+(thread 1) next curr node 0x7f75f8000c50
+(thread 1) next curr node 0x7f75f0000b60
+(thread 1) next curr node 0x7f75fc000ba0
+(thread 1) element found: -67105840
+(thread 1) lock released
+(thread 1) counting for element: 15
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f8000c50
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f7618000bb0
+(thread 1) next curr node: (nil)
+(thread 1) element not found: 15
+(thread 1) lock released
+(thread 1) searching for element 3
+(thread 1) waiting to acquire lock
+(thread 6) lock acquired
+(thread 6) curr node: 0x7f7618000b60
+(thread 6) next curr node: 0x7f7600000b60
+(thread 6) next curr node: 0x7f7604000b60
+(thread 6) next curr node: 0x7f75f8000b60
+(thread 6) next curr node: 0x7f75f8000bb0
+(thread 6) next curr node: 0x7f75f8000c00
+(thread 6) next curr node: 0x7f75f8000c50
+(thread 6) next curr node: 0x7f75f0000b60
+(thread 6) next curr node: 0x7f75fc000ba0
+(thread 6) next curr node: 0x7f7618000bb0
+(thread 6) next curr node: (nil)
+(thread 6) element not found: 13
+(thread 6) lock released
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) element found: 402656144
+(thread 7) lock released
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 7) removing element: 18
+(thread 7) waiting to acquire lock
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next curr node: 0x7f75f8000c50
+(thread 5) next curr node: 0x7f75f0000b60
+(thread 5) next curr node: 0x7f75fc000ba0
+(thread 5) next curr node: 0x7f7618000bb0
+(thread 5) next curr node: (nil)
+(thread 5) element not found: 8
+(thread 5) lock released
+(thread 5) adding element: 16
+(thread 5) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node 0x7f7600000b60
+(thread 0) next curr node 0x7f7604000b60
+(thread 0) next curr node 0x7f75f8000b60
+(thread 0) next curr node 0x7f75f8000bb0
+(thread 0) next curr node 0x7f75f8000c00
+(thread 0) next curr node 0x7f75f8000c50
+(thread 0) next curr node 0x7f75f0000b60
+(thread 0) next curr node 0x7f75fc000ba0
+(thread 0) next curr node 0x7f7618000bb0
+(thread 0) next curr node (nil)
+(thread 0) element not found: 10
+(thread 0) lock released
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 0) searching for element 7
+(thread 0) waiting to acquire lock
+(thread 2) next curr node 0x7f7600000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) next curr node 0x7f75f8000c00
+(thread 2) next curr node 0x7f75f8000c50
+(thread 2) next curr node 0x7f75f0000b60
+(thread 2) next curr node 0x7f75fc000ba0
+(thread 2) next curr node 0x7f7618000bb0
+(thread 2) next curr node (nil)
+(thread 2) element not found: 9
+(thread 2) lock released
+(thread 2) counting for element: 16
+(thread 2) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 8) next curr node 0x7f7604000b60
+(thread 8) next curr node 0x7f75f8000b60
+(thread 8) next curr node 0x7f75f8000bb0
+(thread 8) next curr node 0x7f75f8000c00
+(thread 8) next curr node 0x7f75f8000c50
+(thread 8) next curr node 0x7f75f0000b60
+(thread 8) next curr node 0x7f75fc000ba0
+(thread 8) next curr node 0x7f7618000bb0
+(thread 8) next curr node (nil)
+(thread 8) element not found: 4
+(thread 8) lock released
+(thread 8) searching for element 17
+(thread 8) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node 0x7f7600000b60
+(thread 8) next curr node 0x7f7604000b60
+(thread 8) next curr node 0x7f75f8000b60
+(thread 8) element found: -134214768
+(thread 8) lock released
+(thread 8) adding element: 6
+(thread 8) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7600000b60
+(thread 8) next pred node: 0x7f7600000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next pred node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f8000c50
+(thread 8) next pred node: 0x7f75f8000c50
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next pred node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next pred node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f7618000bb0
+(thread 8) next pred node: 0x7f7618000bb0
+(thread 8) next curr node: (nil)
+(thread 8) element not found: 0x6
+(thread 8) new node created: 0x7f75f0000bb0
+(thread 8) new node added: 0x7f75f0000bb0
+(thread 8) lock released
+(thread 8) counting for element: 0
+(thread 8) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7600000b60
+(thread 3) next pred node: 0x7f7600000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f8000c50
+(thread 3) next pred node: 0x7f75f8000c50
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f7618000bb0
+(thread 3) next pred node: 0x7f7618000bb0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: (nil)
+(thread 3) element not found
+(thread 3) lock released
+(thread 3) counting for element: 19
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) element found: 19, count: 9
+(thread 3) lock released
+(thread 3) removing element: 5
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7600000b60
+(thread 3) next pred node: 0x7f7600000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f8000c50
+(thread 3) node found: 5, count being decremented
+(thread 3) count 0 for: 5, node being removed
+(thread 3) lock released
+(thread 3) removing element: 9
+(thread 3) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node 0x7f7600000b60
+(thread 1) next curr node 0x7f7604000b60
+(thread 1) next curr node 0x7f75f8000b60
+(thread 1) next curr node 0x7f75f8000bb0
+(thread 1) next curr node 0x7f75f8000c00
+(thread 1) next curr node 0x7f75f0000b60
+(thread 1) next curr node 0x7f75fc000ba0
+(thread 1) element found: -67105840
+(thread 1) lock released
+(thread 1) counting for element: 7
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f7618000bb0
+(thread 1) element found: 7, count: 1
+(thread 1) lock released
+(thread 1) counting for element: 5
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7600000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f7618000bb0
+(thread 1) next curr node: 0x7f75f0000bb0
+(thread 1) next curr node: (nil)
+(thread 1) element not found: 5
+(thread 1) lock released
+(thread 1) adding element: 16
+(thread 1) waiting to acquire lock
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7600000b60
+(thread 5) next pred node: 0x7f7600000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next pred node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next pred node: 0x7f75f8000c00
+(thread 5) next curr node: 0x7f75f0000b60
+(thread 5) element found: 16, counter being incremented
+(thread 5) lock released
+(thread 5) counting for element: 17
+(thread 5) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node 0x7f7600000b60
+(thread 0) next curr node 0x7f7604000b60
+(thread 0) next curr node 0x7f75f8000b60
+(thread 0) next curr node 0x7f75f8000bb0
+(thread 0) next curr node 0x7f75f8000c00
+(thread 0) next curr node 0x7f75f0000b60
+(thread 0) next curr node 0x7f75fc000ba0
+(thread 0) next curr node 0x7f7618000bb0
+(thread 0) element found: 402656288
+(thread 0) lock released
+(thread 0) adding element: 15
+(thread 0) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7600000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) element found: 16, count: 2
+(thread 2) lock released
+(thread 2) searching for element 14
+(thread 2) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7600000b60
+(thread 4) next pred node: 0x7f7600000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next pred node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next pred node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next pred node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) next pred node: 0x7f75f8000c00
+(thread 4) next curr node: 0x7f75f0000b60
+(thread 4) next pred node: 0x7f75f0000b60
+(thread 4) next curr node: 0x7f75fc000ba0
+(thread 4) next pred node: 0x7f75fc000ba0
+(thread 4) next curr node: 0x7f7618000bb0
+(thread 4) next pred node: 0x7f7618000bb0
+(thread 4) next curr node: 0x7f75f0000bb0
+(thread 4) next pred node: 0x7f75f0000bb0
+(thread 4) next curr node: (nil)
+(thread 4) element not found: 0x1
+(thread 4) new node created: 0x7f7608000b60
+(thread 4) new node added: 0x7f7608000b60
+(thread 4) lock released
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 4) searching for element 13
+(thread 4) waiting to acquire lock
+(thread 8) next curr node: 0x7f7600000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) element found: 0, count: 2
+(thread 8) lock released
+(thread 8) adding element: 18
+(thread 8) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7600000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f7618000bb0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 8
+(thread 9) lock released
+(thread 9) searching for element 4
+(thread 9) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7600000b60
+(thread 3) next pred node: 0x7f7600000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f7618000bb0
+(thread 3) next pred node: 0x7f7618000bb0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: (nil)
+(thread 3) element not found
+(thread 3) lock released
+(thread 3) removing element: 7
+(thread 3) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7600000b60
+(thread 7) node found: 18, count being decremented
+(thread 7) count 0 for: 18, node being removed
+(thread 7) lock released
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 7) removing element: 16
+(thread 7) waiting to acquire lock
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next pred node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next pred node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) element found: 16, counter being incremented
+(thread 1) lock released
+(thread 5) lock acquired
+(thread 5) curr node: 0x7f7618000b60
+(thread 1) removing element: 9
+(thread 1) waiting to acquire lock
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) element found: 17, count: 2
+(thread 5) lock released
+(thread 5) removing element: 12
+(thread 5) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f0000b60
+(thread 0) next pred node: 0x7f75f0000b60
+(thread 0) next curr node: 0x7f75fc000ba0
+(thread 0) next pred node: 0x7f75fc000ba0
+(thread 0) next curr node: 0x7f7618000bb0
+(thread 0) next pred node: 0x7f7618000bb0
+(thread 0) next curr node: 0x7f75f0000bb0
+(thread 0) next pred node: 0x7f75f0000bb0
+(thread 0) next curr node: 0x7f7608000b60
+(thread 0) next pred node: 0x7f7608000b60
+(thread 0) next curr node: (nil)
+(thread 0) element not found: 0xf
+(thread 0) new node created: 0x7f7618000c40
+(thread 0) new node added: 0x7f7618000c40
+(thread 0) lock released
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 0) removing element: 8
+(thread 0) waiting to acquire lock
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) element found: -134214688
+(thread 2) lock released
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node 0x7f7604000b60
+(thread 2) removing element: 10
+(thread 2) waiting to acquire lock
+(thread 4) next curr node 0x7f75f8000b60
+(thread 4) next curr node 0x7f75f8000bb0
+(thread 4) next curr node 0x7f75f8000c00
+(thread 4) next curr node 0x7f75f0000b60
+(thread 4) next curr node 0x7f75fc000ba0
+(thread 4) next curr node 0x7f7618000bb0
+(thread 4) next curr node 0x7f75f0000bb0
+(thread 4) next curr node 0x7f7608000b60
+(thread 4) next curr node 0x7f7618000c40
+(thread 4) next curr node (nil)
+(thread 4) element not found: 13
+(thread 4) lock released
+(thread 4) removing element: 19
+(thread 4) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next pred node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next pred node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next pred node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f7618000bb0
+(thread 8) next pred node: 0x7f7618000bb0
+(thread 8) next curr node: 0x7f75f0000bb0
+(thread 8) next pred node: 0x7f75f0000bb0
+(thread 8) next curr node: 0x7f7608000b60
+(thread 8) next pred node: 0x7f7608000b60
+(thread 8) next curr node: 0x7f7618000c40
+(thread 8) next pred node: 0x7f7618000c40
+(thread 8) next curr node: (nil)
+(thread 8) element not found: 0x12
+(thread 8) new node created: 0x7f75f0000c00
+(thread 8) new node added: 0x7f75f0000c00
+(thread 8) lock released
+(thread 8) adding element: 0
+(thread 8) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node 0x7f7604000b60
+(thread 9) next curr node 0x7f75f8000b60
+(thread 9) next curr node 0x7f75f8000bb0
+(thread 9) next curr node 0x7f75f8000c00
+(thread 9) next curr node 0x7f75f0000b60
+(thread 9) next curr node 0x7f75fc000ba0
+(thread 9) next curr node 0x7f7618000bb0
+(thread 9) next curr node 0x7f75f0000bb0
+(thread 9) next curr node 0x7f7608000b60
+(thread 9) next curr node 0x7f7618000c40
+(thread 9) next curr node 0x7f75f0000c00
+(thread 9) next curr node (nil)
+(thread 9) element not found: 4
+(thread 9) lock released
+(thread 9) adding element: 12
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f7618000bb0
+(thread 9) next pred node: 0x7f7618000bb0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75f0000c00
+(thread 9) next pred node: 0x7f75f0000c00
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 0xc
+(thread 9) new node created: 0x7f75fc000bf0
+(thread 9) new node added: 0x7f75fc000bf0
+(thread 9) lock released
+(thread 9) removing element: 13
+(thread 9) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next pred node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next pred node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next pred node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next pred node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) node found: 16, count being decremented
+(thread 7) lock released
+(thread 7) adding element: 12
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next pred node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next pred node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next pred node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next pred node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next pred node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next pred node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f7618000bb0
+(thread 7) next pred node: 0x7f7618000bb0
+(thread 7) next curr node: 0x7f75f0000bb0
+(thread 7) next pred node: 0x7f75f0000bb0
+(thread 7) next curr node: 0x7f7608000b60
+(thread 7) next pred node: 0x7f7608000b60
+(thread 7) next curr node: 0x7f7618000c40
+(thread 7) next pred node: 0x7f7618000c40
+(thread 7) next curr node: 0x7f75f0000c00
+(thread 7) next pred node: 0x7f75f0000c00
+(thread 7) next curr node: 0x7f75fc000bf0
+(thread 7) element found: 12, counter being incremented
+(thread 7) lock released
+(thread 7) searching for element 9
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node 0x7f7604000b60
+(thread 7) next curr node 0x7f75f8000b60
+(thread 7) next curr node 0x7f75f8000bb0
+(thread 7) next curr node 0x7f75f8000c00
+(thread 7) next curr node 0x7f75f0000b60
+(thread 7) next curr node 0x7f75fc000ba0
+(thread 7) next curr node 0x7f7618000bb0
+(thread 7) next curr node 0x7f75f0000bb0
+(thread 7) next curr node 0x7f7608000b60
+(thread 7) next curr node 0x7f7618000c40
+(thread 7) next curr node 0x7f75f0000c00
+(thread 7) next curr node 0x7f75fc000bf0
+(thread 7) next curr node (nil)
+(thread 7) element not found: 9
+(thread 7) lock released
+(thread 7) searching for element 14
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node 0x7f7604000b60
+(thread 7) next curr node 0x7f75f8000b60
+(thread 7) next curr node 0x7f75f8000bb0
+(thread 7) element found: -134214688
+(thread 7) lock released
+(thread 7) adding element: 0
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) element found: 0, counter being incremented
+(thread 7) lock released
+(thread 7) adding element: 14
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next pred node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next pred node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) element found: 14, counter being incremented
+(thread 7) lock released
+(thread 7) removing element: 7
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next pred node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next pred node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next pred node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next pred node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next pred node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next pred node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f7618000bb0
+(thread 7) node found: 7, count being decremented
+(thread 7) count 0 for: 7, node being removed
+(thread 7) lock released
+(thread 7) counting for element: 9
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f75f0000bb0
+(thread 7) next curr node: 0x7f7608000b60
+(thread 7) next curr node: 0x7f7618000c40
+(thread 7) next curr node: 0x7f75f0000c00
+(thread 7) next curr node: 0x7f75fc000bf0
+(thread 7) next curr node: (nil)
+(thread 7) element not found: 9
+(thread 7) lock released
+(thread 7) searching for element 18
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node 0x7f7604000b60
+(thread 7) next curr node 0x7f75f8000b60
+(thread 7) next curr node 0x7f75f8000bb0
+(thread 7) next curr node 0x7f75f8000c00
+(thread 7) next curr node 0x7f75f0000b60
+(thread 7) next curr node 0x7f75fc000ba0
+(thread 7) next curr node 0x7f75f0000bb0
+(thread 7) next curr node 0x7f7608000b60
+(thread 7) next curr node 0x7f7618000c40
+(thread 7) next curr node 0x7f75f0000c00
+(thread 7) element found: -268432336
+(thread 7) lock released
+(thread 7) counting for element: 12
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f75f0000bb0
+(thread 7) next curr node: 0x7f7608000b60
+(thread 7) next curr node: 0x7f7618000c40
+(thread 7) next curr node: 0x7f75f0000c00
+(thread 7) next curr node: 0x7f75fc000bf0
+(thread 7) element found: 12, count: 2
+(thread 7) lock released
+(thread 7) adding element: 11
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next pred node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next pred node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next pred node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) element found: 11, counter being incremented
+(thread 7) lock released
+(thread 7) removing element: 0
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) pred node: 0xfa4ac0
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next pred node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) node found: 0, count being decremented
+(thread 7) lock released
+(thread 7) counting for element: 2
+(thread 7) waiting to acquire lock
+(thread 7) lock acquired
+(thread 7) curr node: 0x7f7618000b60
+(thread 7) next curr node: 0x7f7604000b60
+(thread 7) next curr node: 0x7f75f8000b60
+(thread 7) next curr node: 0x7f75f8000bb0
+(thread 7) next curr node: 0x7f75f8000c00
+(thread 7) next curr node: 0x7f75f0000b60
+(thread 7) next curr node: 0x7f75fc000ba0
+(thread 7) next curr node: 0x7f75f0000bb0
+(thread 7) next curr node: 0x7f7608000b60
+(thread 7) next curr node: 0x7f7618000c40
+(thread 7) next curr node: 0x7f75f0000c00
+(thread 7) next curr node: 0x7f75fc000bf0
+(thread 7) next curr node: (nil)
+(thread 7) element not found: 2
+(thread 7) lock released
+(thread 5) lock acquired
+(thread 5) pred node: 0xfa4ac0
+(thread 5) curr node: 0x7f7618000b60
+(thread 5) next pred node: 0x7f7618000b60
+(thread 5) next curr node: 0x7f7604000b60
+(thread 5) next pred node: 0x7f7604000b60
+(thread 5) next curr node: 0x7f75f8000b60
+(thread 5) next pred node: 0x7f75f8000b60
+(thread 5) next curr node: 0x7f75f8000bb0
+(thread 5) next pred node: 0x7f75f8000bb0
+(thread 5) next curr node: 0x7f75f8000c00
+(thread 5) next pred node: 0x7f75f8000c00
+(thread 5) next curr node: 0x7f75f0000b60
+(thread 5) next pred node: 0x7f75f0000b60
+(thread 5) next curr node: 0x7f75fc000ba0
+(thread 5) next pred node: 0x7f75fc000ba0
+(thread 5) next curr node: 0x7f75f0000bb0
+(thread 5) next pred node: 0x7f75f0000bb0
+(thread 5) next curr node: 0x7f7608000b60
+(thread 5) next pred node: 0x7f7608000b60
+(thread 5) next curr node: 0x7f7618000c40
+(thread 5) next pred node: 0x7f7618000c40
+(thread 5) next curr node: 0x7f75f0000c00
+(thread 5) next pred node: 0x7f75f0000c00
+(thread 5) next curr node: 0x7f75fc000bf0
+(thread 5) node found: 12, count being decremented
+(thread 5) lock released
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f0000b60
+(thread 0) next pred node: 0x7f75f0000b60
+(thread 0) next curr node: 0x7f75fc000ba0
+(thread 0) next pred node: 0x7f75fc000ba0
+(thread 0) next curr node: 0x7f75f0000bb0
+(thread 0) next pred node: 0x7f75f0000bb0
+(thread 0) next curr node: 0x7f7608000b60
+(thread 0) next pred node: 0x7f7608000b60
+(thread 0) next curr node: 0x7f7618000c40
+(thread 0) next pred node: 0x7f7618000c40
+(thread 0) next curr node: 0x7f75f0000c00
+(thread 0) next pred node: 0x7f75f0000c00
+(thread 0) next curr node: 0x7f75fc000bf0
+(thread 0) next pred node: 0x7f75fc000bf0
+(thread 0) next curr node: (nil)
+(thread 0) element not found
+(thread 0) lock released
+(thread 0) searching for element 2
+(thread 0) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next pred node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next pred node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) next pred node: 0x7f7608000b60
+(thread 2) next curr node: 0x7f7618000c40
+(thread 2) next pred node: 0x7f7618000c40
+(thread 2) next curr node: 0x7f75f0000c00
+(thread 2) next pred node: 0x7f75f0000c00
+(thread 2) next curr node: 0x7f75fc000bf0
+(thread 2) next pred node: 0x7f75fc000bf0
+(thread 2) next curr node: (nil)
+(thread 2) element not found
+(thread 2) lock released
+(thread 2) searching for element 16
+(thread 2) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) node found: 19, count being decremented
+(thread 4) lock released
+(thread 4) removing element: 11
+(thread 4) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) element found: 0, counter being incremented
+(thread 8) lock released
+(thread 8) counting for element: 3
+(thread 8) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75f0000c00
+(thread 3) next pred node: 0x7f75f0000c00
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: (nil)
+(thread 3) element not found
+(thread 3) lock released
+(thread 3) adding element: 1
+(thread 3) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75f0000c00
+(thread 9) next pred node: 0x7f75f0000c00
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: (nil)
+(thread 9) element not found
+(thread 9) lock released
+(thread 9) adding element: 13
+(thread 9) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next pred node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next pred node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next pred node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next pred node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f75f0000bb0
+(thread 1) next pred node: 0x7f75f0000bb0
+(thread 1) next curr node: 0x7f7608000b60
+(thread 1) next pred node: 0x7f7608000b60
+(thread 1) next curr node: 0x7f7618000c40
+(thread 1) next pred node: 0x7f7618000c40
+(thread 1) next curr node: 0x7f75f0000c00
+(thread 1) next pred node: 0x7f75f0000c00
+(thread 1) next curr node: 0x7f75fc000bf0
+(thread 1) next pred node: 0x7f75fc000bf0
+(thread 1) next curr node: (nil)
+(thread 1) element not found
+(thread 1) lock released
+(thread 1) removing element: 18
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next pred node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next pred node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next pred node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next pred node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f75f0000bb0
+(thread 1) next pred node: 0x7f75f0000bb0
+(thread 1) next curr node: 0x7f7608000b60
+(thread 1) next pred node: 0x7f7608000b60
+(thread 1) next curr node: 0x7f7618000c40
+(thread 1) next pred node: 0x7f7618000c40
+(thread 1) next curr node: 0x7f75f0000c00
+(thread 1) node found: 18, count being decremented
+(thread 1) count 0 for: 18, node being removed
+(thread 1) lock released
+(thread 1) adding element: 0
+(thread 1) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) next curr node 0x7f75f8000c00
+(thread 2) next curr node 0x7f75f0000b60
+(thread 2) element found: -268432496
+(thread 2) lock released
+(thread 2) counting for element: 1
+(thread 2) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next pred node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next pred node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next pred node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) node found: 11, count being decremented
+(thread 4) lock released
+(thread 4) searching for element 17
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node 0x7f7604000b60
+(thread 4) next curr node 0x7f75f8000b60
+(thread 4) element found: -134214768
+(thread 4) lock released
+(thread 4) adding element: 7
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next pred node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next pred node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next pred node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) next pred node: 0x7f75f8000c00
+(thread 4) next curr node: 0x7f75f0000b60
+(thread 4) next pred node: 0x7f75f0000b60
+(thread 4) next curr node: 0x7f75fc000ba0
+(thread 4) next pred node: 0x7f75fc000ba0
+(thread 4) next curr node: 0x7f75f0000bb0
+(thread 4) next pred node: 0x7f75f0000bb0
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) next pred node: 0x7f7608000b60
+(thread 4) next curr node: 0x7f7618000c40
+(thread 4) next pred node: 0x7f7618000c40
+(thread 4) next curr node: 0x7f75fc000bf0
+(thread 4) next pred node: 0x7f75fc000bf0
+(thread 4) next curr node: (nil)
+(thread 4) element not found: 0x7
+(thread 4) new node created: 0x7f760c000b80
+(thread 4) new node added: 0x7f760c000b80
+(thread 4) lock released
+(thread 4) counting for element: 0
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) element found: 0, count: 3
+(thread 4) lock released
+(thread 4) adding element: 11
+(thread 4) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) pred node: 0xfa4ac0
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next pred node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next pred node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next pred node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next pred node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) element found: 11, counter being incremented
+(thread 4) lock released
+(thread 4) counting for element: 12
+(thread 4) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 0xd
+(thread 9) new node created: 0x7f75fc000c40
+(thread 9) new node added: 0x7f75fc000c40
+(thread 9) lock released
+(thread 9) searching for element 5
+(thread 9) waiting to acquire lock
+(thread 0) lock acquired
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next curr node 0x7f7604000b60
+(thread 0) next curr node 0x7f75f8000b60
+(thread 0) next curr node 0x7f75f8000bb0
+(thread 0) next curr node 0x7f75f8000c00
+(thread 0) next curr node 0x7f75f0000b60
+(thread 0) next curr node 0x7f75fc000ba0
+(thread 0) next curr node 0x7f75f0000bb0
+(thread 0) next curr node 0x7f7608000b60
+(thread 0) next curr node 0x7f7618000c40
+(thread 0) next curr node 0x7f75fc000bf0
+(thread 0) next curr node 0x7f760c000b80
+(thread 0) next curr node 0x7f75fc000c40
+(thread 0) next curr node (nil)
+(thread 0) element not found: 2
+(thread 0) lock released
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 0) adding element: 15
+(thread 0) waiting to acquire lock
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) element found: 0, counter being incremented
+(thread 1) lock released
+(thread 1) counting for element: 8
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f75f0000bb0
+(thread 1) next curr node: 0x7f7608000b60
+(thread 1) next curr node: 0x7f7618000c40
+(thread 1) next curr node: 0x7f75fc000bf0
+(thread 1) next curr node: 0x7f760c000b80
+(thread 1) next curr node: 0x7f75fc000c40
+(thread 1) next curr node: (nil)
+(thread 1) element not found: 8
+(thread 1) lock released
+(thread 1) counting for element: 14
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) element found: 14, count: 3
+(thread 1) lock released
+(thread 1) searching for element 16
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next curr node 0x7f7604000b60
+(thread 1) next curr node 0x7f75f8000b60
+(thread 1) next curr node 0x7f75f8000bb0
+(thread 1) next curr node 0x7f75f8000c00
+(thread 1) next curr node 0x7f75f0000b60
+(thread 1) element found: -268432496
+(thread 1) lock released
+(thread 1) removing element: 18
+(thread 1) waiting to acquire lock
+(thread 1) lock acquired
+(thread 1) pred node: 0xfa4ac0
+(thread 1) curr node: 0x7f7618000b60
+(thread 1) next pred node: 0x7f7618000b60
+(thread 1) next curr node: 0x7f7604000b60
+(thread 1) next pred node: 0x7f7604000b60
+(thread 1) next curr node: 0x7f75f8000b60
+(thread 1) next pred node: 0x7f75f8000b60
+(thread 1) next curr node: 0x7f75f8000bb0
+(thread 1) next pred node: 0x7f75f8000bb0
+(thread 1) next curr node: 0x7f75f8000c00
+(thread 1) next pred node: 0x7f75f8000c00
+(thread 1) next curr node: 0x7f75f0000b60
+(thread 1) next pred node: 0x7f75f0000b60
+(thread 1) next curr node: 0x7f75fc000ba0
+(thread 1) next pred node: 0x7f75fc000ba0
+(thread 1) next curr node: 0x7f75f0000bb0
+(thread 1) next pred node: 0x7f75f0000bb0
+(thread 1) next curr node: 0x7f7608000b60
+(thread 1) next pred node: 0x7f7608000b60
+(thread 1) next curr node: 0x7f7618000c40
+(thread 1) next pred node: 0x7f7618000c40
+(thread 1) next curr node: 0x7f75fc000bf0
+(thread 1) next pred node: 0x7f75fc000bf0
+(thread 1) next curr node: 0x7f760c000b80
+(thread 1) next pred node: 0x7f760c000b80
+(thread 1) next curr node: 0x7f75fc000c40
+(thread 1) next pred node: 0x7f75fc000c40
+(thread 1) next curr node: (nil)
+(thread 1) element not found
+(thread 1) lock released
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) next curr node: 0x7f75f0000b60
+(thread 4) next curr node: 0x7f75fc000ba0
+(thread 4) next curr node: 0x7f75f0000bb0
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) next curr node: 0x7f7618000c40
+(thread 4) next curr node: 0x7f75fc000bf0
+(thread 4) element found: 12, count: 1
+(thread 4) lock released
+(thread 4) counting for element: 14
+(thread 4) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node 0x7f7604000b60
+(thread 9) next curr node 0x7f75f8000b60
+(thread 9) next curr node 0x7f75f8000bb0
+(thread 9) next curr node 0x7f75f8000c00
+(thread 9) next curr node 0x7f75f0000b60
+(thread 9) next curr node 0x7f75fc000ba0
+(thread 9) next curr node 0x7f75f0000bb0
+(thread 9) next curr node 0x7f7608000b60
+(thread 9) next curr node 0x7f7618000c40
+(thread 9) next curr node 0x7f75fc000bf0
+(thread 9) next curr node 0x7f760c000b80
+(thread 9) next curr node 0x7f75fc000c40
+(thread 9) next curr node (nil)
+(thread 9) element not found: 5
+(thread 9) lock released
+(thread 9) removing element: 5
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75fc000c40
+(thread 9) next pred node: 0x7f75fc000c40
+(thread 9) next curr node: (nil)
+(thread 9) element not found
+(thread 9) lock released
+(thread 9) searching for element 16
+(thread 9) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) element found: 1, count: 1
+(thread 2) lock released
+(thread 2) removing element: 9
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 2) waiting to acquire lock
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) element found: 3, count: 1
+(thread 8) lock released
+(thread 8) counting for element: 9
+(thread 8) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) element found: 1, counter being incremented
+(thread 3) lock released
+(thread 3) adding element: 19
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) element found: 19, counter being incremented
+(thread 3) lock released
+(thread 3) adding element: 7
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: 0x7f760c000b80
+(thread 3) element found: 7, counter being incremented
+(thread 3) lock released
+(thread 3) searching for element 8
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next curr node 0x7f7604000b60
+(thread 3) next curr node 0x7f75f8000b60
+(thread 3) next curr node 0x7f75f8000bb0
+(thread 3) next curr node 0x7f75f8000c00
+(thread 3) next curr node 0x7f75f0000b60
+(thread 3) next curr node 0x7f75fc000ba0
+(thread 3) next curr node 0x7f75f0000bb0
+(thread 3) next curr node 0x7f7608000b60
+(thread 3) next curr node 0x7f7618000c40
+(thread 3) next curr node 0x7f75fc000bf0
+(thread 3) next curr node 0x7f760c000b80
+(thread 3) next curr node 0x7f75fc000c40
+(thread 3) next curr node (nil)
+(thread 3) element not found: 8
+(thread 3) lock released
+(thread 3) adding element: 4
+(thread 3) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node 0x7f7604000b60
+(thread 9) next curr node 0x7f75f8000b60
+(thread 9) next curr node 0x7f75f8000bb0
+(thread 9) next curr node 0x7f75f8000c00
+(thread 9) next curr node 0x7f75f0000b60
+(thread 9) element found: -268432496
+(thread 9) lock released
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 9) removing element: 13
+(thread 9) waiting to acquire lock
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next pred node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next pred node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) next pred node: 0x7f7608000b60
+(thread 2) next curr node: 0x7f7618000c40
+(thread 2) next pred node: 0x7f7618000c40
+(thread 2) next curr node: 0x7f75fc000bf0
+(thread 2) next pred node: 0x7f75fc000bf0
+(thread 2) next curr node: 0x7f760c000b80
+(thread 2) next pred node: 0x7f760c000b80
+(thread 2) next curr node: 0x7f75fc000c40
+(thread 2) next pred node: 0x7f75fc000c40
+(thread 2) next curr node: (nil)
+(thread 2) element not found
+(thread 2) lock released
+(thread 2) adding element: 18
+(thread 2) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next pred node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next pred node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) next pred node: 0x7f7608000b60
+(thread 2) next curr node: 0x7f7618000c40
+(thread 2) next pred node: 0x7f7618000c40
+(thread 2) next curr node: 0x7f75fc000bf0
+(thread 2) next pred node: 0x7f75fc000bf0
+(thread 2) next curr node: 0x7f760c000b80
+(thread 2) next pred node: 0x7f760c000b80
+(thread 2) next curr node: 0x7f75fc000c40
+(thread 2) next pred node: 0x7f75fc000c40
+(thread 2) next curr node: (nil)
+(thread 2) element not found: 0x12
+(thread 2) new node created: 0x7f7610000b60
+(thread 2) new node added: 0x7f7610000b60
+(thread 2) lock released
+(thread 2) searching for element 1
+(thread 2) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) next curr node 0x7f75f8000c00
+(thread 2) next curr node 0x7f75f0000b60
+(thread 2) next curr node 0x7f75fc000ba0
+(thread 2) next curr node 0x7f75f0000bb0
+(thread 2) next curr node 0x7f7608000b60
+(thread 2) element found: 201329504
+(thread 2) lock released
+(thread 2) adding element: 3
+(thread 2) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) element found: 14, count: 3
+(thread 4) lock released
+(thread 4) counting for element: 10
+(thread 0) lock acquired
+(thread 0) pred node: 0xfa4ac0
+(thread 0) curr node: 0x7f7618000b60
+(thread 0) next pred node: 0x7f7618000b60
+(thread 4) waiting to acquire lock
+(thread 0) next curr node: 0x7f7604000b60
+(thread 0) next pred node: 0x7f7604000b60
+(thread 0) next curr node: 0x7f75f8000b60
+(thread 0) next pred node: 0x7f75f8000b60
+(thread 0) next curr node: 0x7f75f8000bb0
+(thread 0) next pred node: 0x7f75f8000bb0
+(thread 0) next curr node: 0x7f75f8000c00
+(thread 0) next pred node: 0x7f75f8000c00
+(thread 0) next curr node: 0x7f75f0000b60
+(thread 0) next pred node: 0x7f75f0000b60
+(thread 0) next curr node: 0x7f75fc000ba0
+(thread 0) next pred node: 0x7f75fc000ba0
+(thread 0) next curr node: 0x7f75f0000bb0
+(thread 0) next pred node: 0x7f75f0000bb0
+(thread 0) next curr node: 0x7f7608000b60
+(thread 0) next pred node: 0x7f7608000b60
+(thread 0) next curr node: 0x7f7618000c40
+(thread 0) element found: 15, counter being incremented
+(thread 0) lock released
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: 0x7f760c000b80
+(thread 3) next pred node: 0x7f760c000b80
+(thread 3) next curr node: 0x7f75fc000c40
+(thread 3) next pred node: 0x7f75fc000c40
+(thread 3) next curr node: 0x7f7610000b60
+(thread 3) next pred node: 0x7f7610000b60
+(thread 3) next curr node: (nil)
+(thread 3) element not found: 0x4
+(thread 3) new node created: 0x7f75f8000c50
+(thread 3) new node added: 0x7f75f8000c50
+(thread 3) lock released
+(thread 3) adding element: 6
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) element found: 6, counter being incremented
+(thread 3) lock released
+(thread 3) adding element: 9
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: 0x7f760c000b80
+(thread 3) next pred node: 0x7f760c000b80
+(thread 3) next curr node: 0x7f75fc000c40
+(thread 3) next pred node: 0x7f75fc000c40
+(thread 3) next curr node: 0x7f7610000b60
+(thread 3) next pred node: 0x7f7610000b60
+(thread 3) next curr node: 0x7f75f8000c50
+(thread 3) next pred node: 0x7f75f8000c50
+(thread 3) next curr node: (nil)
+(thread 3) element not found: 0x9
+(thread 3) new node created: 0x7f7608000bd0
+(thread 3) new node added: 0x7f7608000bd0
+(thread 3) lock released
+(thread 3) searching for element 12
+(thread 3) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) element found: 3, counter being incremented
+(thread 2) lock released
+(thread 2) adding element: 17
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) next curr node: 0x7f75f0000b60
+(thread 4) next curr node: 0x7f75fc000ba0
+(thread 2) waiting to acquire lock
+(thread 4) next curr node: 0x7f75f0000bb0
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) next curr node: 0x7f7618000c40
+(thread 4) next curr node: 0x7f75fc000bf0
+(thread 4) next curr node: 0x7f760c000b80
+(thread 4) next curr node: 0x7f75fc000c40
+(thread 4) next curr node: 0x7f7610000b60
+(thread 4) next curr node: 0x7f75f8000c50
+(thread 4) next curr node: 0x7f7608000bd0
+(thread 4) next curr node: (nil)
+(thread 4) element not found: 10
+(thread 4) lock released
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 4) counting for element: 4
+(thread 4) waiting to acquire lock
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75fc000c40
+(thread 9) node found: 13, count being decremented
+(thread 9) count 0 for: 13, node being removed
+(thread 9) lock released
+(thread 9) searching for element 10
+(thread 9) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f75f0000bb0
+(thread 8) next curr node: 0x7f7608000b60
+(thread 8) next curr node: 0x7f7618000c40
+(thread 8) next curr node: 0x7f75fc000bf0
+(thread 8) next curr node: 0x7f760c000b80
+(thread 8) next curr node: 0x7f7610000b60
+(thread 8) next curr node: 0x7f75f8000c50
+(thread 8) next curr node: 0x7f7608000bd0
+(thread 8) element found: 9, count: 1
+(thread 8) lock released
+(thread 8) removing element: 18
+(thread 8) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next curr node 0x7f7604000b60
+(thread 3) next curr node 0x7f75f8000b60
+(thread 3) next curr node 0x7f75f8000bb0
+(thread 3) next curr node 0x7f75f8000c00
+(thread 3) next curr node 0x7f75f0000b60
+(thread 3) next curr node 0x7f75fc000ba0
+(thread 3) next curr node 0x7f75f0000bb0
+(thread 3) next curr node 0x7f7608000b60
+(thread 3) next curr node 0x7f7618000c40
+(thread 3) next curr node 0x7f75fc000bf0
+(thread 3) element found: -67105760
+(thread 3) lock released
+(thread 3) removing element: 10
+(thread 3) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) element found: 17, counter being incremented
+(thread 2) lock released
+(thread 2) searching for element 13
+(thread 2) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node 0x7f7604000b60
+(thread 2) next curr node 0x7f75f8000b60
+(thread 2) next curr node 0x7f75f8000bb0
+(thread 2) next curr node 0x7f75f8000c00
+(thread 2) next curr node 0x7f75f0000b60
+(thread 2) next curr node 0x7f75fc000ba0
+(thread 2) next curr node 0x7f75f0000bb0
+(thread 2) next curr node 0x7f7608000b60
+(thread 2) next curr node 0x7f7618000c40
+(thread 2) next curr node 0x7f75fc000bf0
+(thread 2) next curr node 0x7f760c000b80
+(thread 2) next curr node 0x7f7610000b60
+(thread 2) next curr node 0x7f75f8000c50
+(thread 2) next curr node 0x7f7608000bd0
+(thread 2) next curr node (nil)
+(thread 2) element not found: 13
+(thread 2) lock released
+(thread 2) removing element: 15
+(thread 2) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node 0x7f7604000b60
+(thread 9) next curr node 0x7f75f8000b60
+(thread 9) next curr node 0x7f75f8000bb0
+(thread 9) next curr node 0x7f75f8000c00
+(thread 9) next curr node 0x7f75f0000b60
+(thread 9) next curr node 0x7f75fc000ba0
+(thread 9) next curr node 0x7f75f0000bb0
+(thread 9) next curr node 0x7f7608000b60
+(thread 9) next curr node 0x7f7618000c40
+(thread 9) next curr node 0x7f75fc000bf0
+(thread 9) next curr node 0x7f760c000b80
+(thread 9) next curr node 0x7f7610000b60
+(thread 9) next curr node 0x7f75f8000c50
+(thread 9) next curr node 0x7f7608000bd0
+(thread 9) next curr node (nil)
+(thread 9) element not found: 10
+(thread 9) lock released
+(thread 9) adding element: 10
+(thread 9) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next pred node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next pred node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next pred node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f75f0000bb0
+(thread 8) next pred node: 0x7f75f0000bb0
+(thread 8) next curr node: 0x7f7608000b60
+(thread 8) next pred node: 0x7f7608000b60
+(thread 8) next curr node: 0x7f7618000c40
+(thread 8) next pred node: 0x7f7618000c40
+(thread 8) next curr node: 0x7f75fc000bf0
+(thread 8) next pred node: 0x7f75fc000bf0
+(thread 8) next curr node: 0x7f760c000b80
+(thread 8) next pred node: 0x7f760c000b80
+(thread 8) next curr node: 0x7f7610000b60
+(thread 8) node found: 18, count being decremented
+(thread 8) count 0 for: 18, node being removed
+(thread 8) lock released
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 8) adding element: 11
+(thread 8) waiting to acquire lock
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: 0x7f760c000b80
+(thread 3) next pred node: 0x7f760c000b80
+(thread 3) next curr node: 0x7f75f8000c50
+(thread 3) next pred node: 0x7f75f8000c50
+(thread 3) next curr node: 0x7f7608000bd0
+(thread 3) next pred node: 0x7f7608000bd0
+(thread 3) next curr node: (nil)
+(thread 3) element not found
+(thread 3) lock released
+(thread 3) adding element: 1
+(thread 3) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) element found: 1, counter being incremented
+(thread 3) lock released
+(thread 3) adding element: 7
+(thread 3) waiting to acquire lock
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next pred node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next pred node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) next pred node: 0x7f7608000b60
+(thread 2) next curr node: 0x7f7618000c40
+(thread 2) node found: 15, count being decremented
+(thread 2) lock released
+(thread 2) removing element: 0
+(thread 2) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75f8000c50
+(thread 9) next pred node: 0x7f75f8000c50
+(thread 9) next curr node: 0x7f7608000bd0
+(thread 9) next pred node: 0x7f7608000bd0
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 0xa
+(thread 9) new node created: 0x7f75fc000c40
+(thread 9) new node added: 0x7f75fc000c40
+(thread 9) lock released
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 9) searching for element 8
+(thread 9) waiting to acquire lock
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) element found: 11, counter being incremented
+(thread 8) lock released
+(thread 8) removing element: 9
+(thread 8) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) next pred node: 0x7f75f8000c00
+(thread 8) next curr node: 0x7f75f0000b60
+(thread 8) next pred node: 0x7f75f0000b60
+(thread 8) next curr node: 0x7f75fc000ba0
+(thread 8) next pred node: 0x7f75fc000ba0
+(thread 8) next curr node: 0x7f75f0000bb0
+(thread 8) next pred node: 0x7f75f0000bb0
+(thread 8) next curr node: 0x7f7608000b60
+(thread 8) next pred node: 0x7f7608000b60
+(thread 8) next curr node: 0x7f7618000c40
+(thread 8) next pred node: 0x7f7618000c40
+(thread 8) next curr node: 0x7f75fc000bf0
+(thread 8) next pred node: 0x7f75fc000bf0
+(thread 8) next curr node: 0x7f760c000b80
+(thread 8) next pred node: 0x7f760c000b80
+(thread 8) next curr node: 0x7f75f8000c50
+(thread 8) next pred node: 0x7f75f8000c50
+(thread 8) next curr node: 0x7f7608000bd0
+(thread 8) node found: 9, count being decremented
+(thread 8) count 0 for: 9, node being removed
+(thread 8) lock released
+(thread 8) removing element: 11
+(thread 8) waiting to acquire lock
+(thread 3) lock acquired
+(thread 3) pred node: 0xfa4ac0
+(thread 3) curr node: 0x7f7618000b60
+(thread 3) next pred node: 0x7f7618000b60
+(thread 3) next curr node: 0x7f7604000b60
+(thread 3) next pred node: 0x7f7604000b60
+(thread 3) next curr node: 0x7f75f8000b60
+(thread 3) next pred node: 0x7f75f8000b60
+(thread 3) next curr node: 0x7f75f8000bb0
+(thread 3) next pred node: 0x7f75f8000bb0
+(thread 3) next curr node: 0x7f75f8000c00
+(thread 3) next pred node: 0x7f75f8000c00
+(thread 3) next curr node: 0x7f75f0000b60
+(thread 3) next pred node: 0x7f75f0000b60
+(thread 3) next curr node: 0x7f75fc000ba0
+(thread 3) next pred node: 0x7f75fc000ba0
+(thread 3) next curr node: 0x7f75f0000bb0
+(thread 3) next pred node: 0x7f75f0000bb0
+(thread 3) next curr node: 0x7f7608000b60
+(thread 3) next pred node: 0x7f7608000b60
+(thread 3) next curr node: 0x7f7618000c40
+(thread 3) next pred node: 0x7f7618000c40
+(thread 3) next curr node: 0x7f75fc000bf0
+(thread 3) next pred node: 0x7f75fc000bf0
+(thread 3) next curr node: 0x7f760c000b80
+(thread 3) element found: 7, counter being incremented
+(thread 3) lock released
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) node found: 0, count being decremented
+(thread 2) lock released
+(thread 2) adding element: 3
+(thread 2) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node 0x7f7604000b60
+(thread 9) next curr node 0x7f75f8000b60
+(thread 9) next curr node 0x7f75f8000bb0
+(thread 9) next curr node 0x7f75f8000c00
+(thread 9) next curr node 0x7f75f0000b60
+(thread 9) next curr node 0x7f75fc000ba0
+(thread 9) next curr node 0x7f75f0000bb0
+(thread 9) next curr node 0x7f7608000b60
+(thread 9) next curr node 0x7f7618000c40
+(thread 9) next curr node 0x7f75fc000bf0
+(thread 9) next curr node 0x7f760c000b80
+(thread 9) next curr node 0x7f75f8000c50
+(thread 9) next curr node 0x7f75fc000c40
+(thread 9) next curr node (nil)
+(thread 9) element not found: 8
+(thread 9) lock released
+(thread 9) adding element: 2
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75f8000c50
+(thread 9) next pred node: 0x7f75f8000c50
+(thread 9) next curr node: 0x7f75fc000c40
+(thread 9) next pred node: 0x7f75fc000c40
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 0x2
+(thread 9) new node created: 0x7f75fc000cb0
+(thread 9) new node added: 0x7f75fc000cb0
+(thread 9) lock released
+(thread 9) adding element: 19
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) element found: 19, counter being incremented
+(thread 9) lock released
+(thread 9) removing element: 14
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) node found: 14, count being decremented
+(thread 9) lock released
+(thread 9) adding element: 13
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) next pred node: 0x7f7618000c40
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75f8000c50
+(thread 9) next pred node: 0x7f75f8000c50
+(thread 9) next curr node: 0x7f75fc000c40
+(thread 9) next pred node: 0x7f75fc000c40
+(thread 9) next curr node: 0x7f75fc000cb0
+(thread 9) next pred node: 0x7f75fc000cb0
+(thread 9) next curr node: (nil)
+(thread 9) element not found: 0xd
+(thread 9) new node created: 0x7f75fc000d00
+(thread 9) new node added: 0x7f75fc000d00
+(thread 9) lock released
+(thread 9) counting for element: 14
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) element found: 14, count: 2
+(thread 9) lock released
+(thread 9) removing element: 15
+(thread 9) waiting to acquire lock
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f7618000c40
+(thread 9) node found: 15, count being decremented
+(thread 9) count 0 for: 15, node being removed
+(thread 9) lock released
+(thread 9) removing element: 8
+(thread 9) waiting to acquire lock
+(thread 8) lock acquired
+(thread 8) pred node: 0xfa4ac0
+(thread 8) curr node: 0x7f7618000b60
+(thread 8) next pred node: 0x7f7618000b60
+(thread 8) next curr node: 0x7f7604000b60
+(thread 8) next pred node: 0x7f7604000b60
+(thread 8) next curr node: 0x7f75f8000b60
+(thread 8) next pred node: 0x7f75f8000b60
+(thread 8) next curr node: 0x7f75f8000bb0
+(thread 8) next pred node: 0x7f75f8000bb0
+(thread 8) next curr node: 0x7f75f8000c00
+(thread 8) node found: 11, count being decremented
+(thread 8) lock released
+(thread 2) lock acquired
+(thread 2) pred node: 0xfa4ac0
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next pred node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next pred node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next pred node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next pred node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next pred node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next pred node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) element found: 3, counter being incremented
+(thread 2) lock released
+(thread 2) counting for element: 2
+(thread 2) waiting to acquire lock
+(thread 4) lock acquired
+(thread 4) curr node: 0x7f7618000b60
+(thread 4) next curr node: 0x7f7604000b60
+(thread 4) next curr node: 0x7f75f8000b60
+(thread 4) next curr node: 0x7f75f8000bb0
+(thread 4) next curr node: 0x7f75f8000c00
+(thread 4) next curr node: 0x7f75f0000b60
+(thread 4) next curr node: 0x7f75fc000ba0
+(thread 4) next curr node: 0x7f75f0000bb0
+(thread 4) next curr node: 0x7f7608000b60
+(thread 4) next curr node: 0x7f75fc000bf0
+(thread 4) next curr node: 0x7f760c000b80
+(thread 4) next curr node: 0x7f75f8000c50
+(thread 4) element found: 4, count: 1
+(thread 4) lock released
+(thread 9) lock acquired
+(thread 9) pred node: 0xfa4ac0
+(thread 9) curr node: 0x7f7618000b60
+(thread 9) next pred node: 0x7f7618000b60
+(thread 9) next curr node: 0x7f7604000b60
+(thread 9) next pred node: 0x7f7604000b60
+(thread 9) next curr node: 0x7f75f8000b60
+(thread 9) next pred node: 0x7f75f8000b60
+(thread 9) next curr node: 0x7f75f8000bb0
+(thread 9) next pred node: 0x7f75f8000bb0
+(thread 9) next curr node: 0x7f75f8000c00
+(thread 9) next pred node: 0x7f75f8000c00
+(thread 9) next curr node: 0x7f75f0000b60
+(thread 9) next pred node: 0x7f75f0000b60
+(thread 9) next curr node: 0x7f75fc000ba0
+(thread 9) next pred node: 0x7f75fc000ba0
+(thread 9) next curr node: 0x7f75f0000bb0
+(thread 9) next pred node: 0x7f75f0000bb0
+(thread 9) next curr node: 0x7f7608000b60
+(thread 9) next pred node: 0x7f7608000b60
+(thread 9) next curr node: 0x7f75fc000bf0
+(thread 9) next pred node: 0x7f75fc000bf0
+(thread 9) next curr node: 0x7f760c000b80
+(thread 9) next pred node: 0x7f760c000b80
+(thread 9) next curr node: 0x7f75f8000c50
+(thread 9) next pred node: 0x7f75f8000c50
+(thread 9) next curr node: 0x7f75fc000c40
+(thread 9) next pred node: 0x7f75fc000c40
+(thread 9) next curr node: 0x7f75fc000cb0
+(thread 9) next pred node: 0x7f75fc000cb0
+(thread 9) next curr node: 0x7f75fc000d00
+(thread 9) next pred node: 0x7f75fc000d00
+(thread 9) next curr node: (nil)
+(thread 9) element not found
+(thread 9) lock released
+(thread 2) lock acquired
+(thread 2) curr node: 0x7f7618000b60
+(thread 2) next curr node: 0x7f7604000b60
+(thread 2) next curr node: 0x7f75f8000b60
+(thread 2) next curr node: 0x7f75f8000bb0
+(thread 2) next curr node: 0x7f75f8000c00
+(thread 2) next curr node: 0x7f75f0000b60
+(thread 2) next curr node: 0x7f75fc000ba0
+(thread 2) next curr node: 0x7f75f0000bb0
+(thread 2) next curr node: 0x7f7608000b60
+(thread 2) next curr node: 0x7f75fc000bf0
+(thread 2) next curr node: 0x7f760c000b80
+(thread 2) next curr node: 0x7f75f8000c50
+(thread 2) next curr node: 0x7f75fc000c40
+(thread 2) next curr node: 0x7f75fc000cb0
+(thread 2) element found: 2, count: 1
+(thread 2) lock released
+final multiset state:
+head -> 19(10) -> 0(3) -> 17(3) -> 14(2) -> 11(3) -> 16(2) -> 3(3) -> 6(2) -> 1(3) -> 12(1) -> 7(3) -> 4(1) -> 10(1) -> 2(1) -> 13(1) -> 
+Test completed.
